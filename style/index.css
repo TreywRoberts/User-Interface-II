@@ -1,1 +1,68 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Roboto+Slab:wght@500&display=swap');
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+*{
+    border:1px solid gray
+}
+
+html{
+  font-size:62.5%;
+}
+body{
+  font-size:1.8rem;
+  line-height:1.5;
+  font-family: 'Antic Slab', serif;
+}
+a{
+    text-decoration:none;
+  }
+  section{
+    padding:4% 0;
+
+  }
+  /* Styles for the header */
+  header{
+      background-color:navy;
+  }
+  h1{
+      padding:3%;
+      
+  }
+  nav{
+      display:flex;
+      margin-left:5%
+  }
+  .home{
+      border:2px solid black;
+      color:red
+  }
+  .home:hover{
+      background-color:white
+  }
+  .about{
+    border:2px solid black;
+    color:red
+}
+.about:hover{
+    background-color:white
+}
+.contact{
+    border:2px solid black;
+    color:red
+}
+.contact:hover{
+    background-color:white
+}
+.projects{
+    border:2px solid black;
+    color:red
+}
+.projects:hover{
+    background-color:white
+}
