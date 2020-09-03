@@ -8,7 +8,7 @@
   max-width: 100%;
 }
 *{
-    border:1px solid gray
+    /* border:1px solid gray */
 }
 
 html{
@@ -65,4 +65,45 @@ a{
 }
 .projects:hover{
     background-color:white
+}
+/* styles for me section */
+.me{
+    display:flex;
+}
+.text{
+    padding:15%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text button{
+    text-align:left;
+    width:30%;
+}
+.dog{
+    margin-left:10%;
+    height:10%;
+}
+/* Styles for Projects */
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin:10%
+}
+.img{
+    width:23%;
+    height:auto;
+}
+/* Styles for the Footer */
+
+footer{
+    background:red;
+    
+}
+h3{
+    text-align: center;
+}
+footer button{
+    
 }
